@@ -4,6 +4,9 @@
 <head>
     <title>MS Tech</title>
 
+    <!-- Makes the website responsive on phones -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <!-- Browser Tab Icon -->
     <link rel="icon" href="logo.png">
 
@@ -15,11 +18,32 @@
         }
 
         h1 {
-            color: darkblack;
+            color: black;
         }
 
         h2 {
             color: black;
+        }
+
+        /* Mobile Responsive Design */
+        @media screen and (max-width: 600px) {
+
+            body {
+                margin: 15px;
+            }
+
+            h1 {
+                font-size: 28px;
+            }
+
+            h2 {
+                font-size: 22px;
+            }
+
+            p,
+            li {
+                font-size: 16px;
+            }
         }
     </style>
 </head>
@@ -74,7 +98,9 @@
         project, and I am excited to continue learning and improving my
         skills every day.
     </p>
-<p><strong>Project Created:</strong> July 2026</p>
+
+    <p><strong>Project Created:</strong> July 2026</p>
+
 </body>
 
 </html>
